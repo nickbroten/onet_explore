@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots
 from sklearn.manifold import TSNE
 
 ### Load data
-alt_titles = pd.read_pickle('alt_titles.pkl')
+alt_titles = pd.read_pickle('static/alt_titles.pkl')
 ability = pd.read_pickle('static/ability.pkl')
 skills = pd.read_pickle('static/skills.pkl')
 knowledge = pd.read_pickle('static/knowledge.pkl')
