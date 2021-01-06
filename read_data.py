@@ -128,6 +128,47 @@ FROM (SELECT work_values.element_id,
       WHERE work_values.scale_id = "EX") AS importance
 """
 
+### load interests
+select_interests = """
+
+SELECT importance.onetsoc_code,
+       importance.title,
+       importance.element_id,
+       importance.element_name,
+       importance.data_value
+FROM (SELECT interests.element_id,
+             interests.onetsoc_code,
+             interests.data_value,
+             content_model_reference.element_name,
+             occupation_data.title
+      FROM interests
+      JOIN content_model_reference ON interests.element_id = content_model_reference.element_id
+      JOIN occupation_data ON interests.onetsoc_code = occupation_data.onetsoc_code
+      WHERE interests.scale_id = "OI") AS importance
+
+"""
+
+### education
+select_ed = """
+
+SELECT level.onetsoc_code,
+       level.title,
+       level.category,
+       level.element_name,
+       level.data_value
+FROM (SELECT education_training_experience.element_id,
+             education_training_experience.onetsoc_code,
+             education_training_experience.data_value,
+             education_training_experience.category,
+             content_model_reference.element_name,
+             occupation_data.title
+      FROM education_training_experience
+      JOIN content_model_reference ON education_training_experience.element_id = content_model_reference.element_id
+      JOIN occupation_data ON education_training_experience.onetsoc_code = occupation_data.onetsoc_code
+      WHERE education_training_experience.scale_id = "RL") AS level
+
+"""
+
 ### Load alternate titles
 select_titles = """
 
@@ -138,7 +179,6 @@ FROM alternate_titles;
 """
 
 ### Load task descriptions
-
 select_tasks = """
 
 SELECT occupation_data.onetsoc_code,
@@ -146,6 +186,15 @@ SELECT occupation_data.onetsoc_code,
        task_statements.task
 FROM task_statements
 JOIN occupation_data ON task_statements.onetsoc_code = occupation_data.onetsoc_code;
+
+"""
+
+### Occupation data
+select_occ = """
+
+SELECT onetsoc_code,
+       title
+FROM occupation_data;
 
 """
 
@@ -192,8 +241,27 @@ index = pd.DataFrame({'SOC' : values_base.index})
 values = pd.concat([index, values], axis = 1)
 values.to_csv('data/values.csv', index=False)
 
+interests = make_query_new(select_interests, ['SOC', 'Title', 'ElementID', 'ElementName', 'Value'])
+interests_base = interests.pivot(index = 'SOC', columns = 'ElementID', values = 'Value')
+interests = StandardScaler().fit_transform(interests_base)
+interests = pd.DataFrame(interests)
+index = pd.DataFrame({'SOC' : interests_base.index})
+interests = pd.concat([index, interests], axis = 1)
+interests.to_csv('data/interests.csv', index=False)
+
+ed = make_query_new(select_ed, ['SOC', 'Title', 'ElementID', 'ElementName', 'Value'])
+ed_base = ed.pivot(index = 'SOC', columns = 'ElementID', values = 'Value')
+ed = StandardScaler().fit_transform(ed_base)
+ed = pd.DataFrame(ed)
+index = pd.DataFrame({'SOC' : ed_base.index})
+ed = pd.concat([index, ed], axis = 1)
+ed.to_csv('data/ed.csv', index=False)
+
 titles = make_query_new(select_titles, ['SOC', 'Alt_Title'])
 titles.to_csv('data/alt_titles.csv', index = False)
 
 tasks = make_query_new(select_tasks, ['SOC', 'Title', 'Task'])
 tasks.to_csv('data/tasks.csv', index = False)
+
+occs = make_query_new(select_occ, ['SOC', 'Title'])
+occs.to_csv('data/occs.csv', index = False)
