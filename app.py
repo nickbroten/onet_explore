@@ -12,12 +12,15 @@ from sklearn.manifold import TSNE
 from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 
+from whitenoise import WhiteNoise
+
 from functions import text_to_vector, get_cosine, return_closest, make_fig_updates, make_labels, return_fig, clean_data
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/wvKVvGo.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
+server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
 
 # the style arguments for the sidebar. We use position:fixed and a fixed width
 SIDEBAR_STYLE = {

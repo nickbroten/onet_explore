@@ -12,18 +12,18 @@ from plotly.subplots import make_subplots
 from sklearn.manifold import TSNE
 
 ### Load data
-alt_titles = pd.read_pickle('data/alt_titles.pkl')
-ability = pd.read_pickle('data/ability.pkl')
-skills = pd.read_pickle('data/skills.pkl')
-knowledge = pd.read_pickle('data/knowledge.pkl')
-styles = pd.read_pickle('data/style.pkl')
-interests = pd.read_pickle('data/interests.pkl')
-values = pd.read_pickle('data/values.pkl')
+alt_titles = pd.read_pickle('alt_titles.pkl')
+ability = pd.read_pickle('static/ability.pkl')
+skills = pd.read_pickle('static/skills.pkl')
+knowledge = pd.read_pickle('static/knowledge.pkl')
+styles = pd.read_pickle('static/style.pkl')
+interests = pd.read_pickle('static/interests.pkl')
+values = pd.read_pickle('static/values.pkl')
 newline = pd.DataFrame({'SOC': ['55']})
-styles = pd.read_pickle('data/style.pkl')
+styles = pd.read_pickle('static/style.pkl')
 style_SOC = pd.DataFrame({'SOC': styles['SOC']}).append(newline, ignore_index = True)
-observe = pd.read_pickle('data/observe.pkl')
-occs = pd.read_pickle('data/occs.pkl')
+observe = pd.read_pickle('static/observe.pkl')
+occs = pd.read_pickle('static/occs.pkl')
 
 WORD = re.compile(r"\w+")
 
