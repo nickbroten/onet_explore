@@ -14,7 +14,7 @@ from nltk.corpus import wordnet
 
 from whitenoise import WhiteNoise
 
-from functions import text_to_vector, get_cosine, return_closest, make_fig_updates, make_labels, return_fig, clean_data
+from functions import text_to_vector, get_cosine, make_fig_updates, make_labels, return_fig
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/wvKVvGo.css']
 
@@ -273,4 +273,4 @@ def update_output_div(query, a1, a2, a3, a4, a5, a6):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
