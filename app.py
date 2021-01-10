@@ -43,7 +43,7 @@ SIDEBAR_STYLE = {
 }
 
 GRAPH_STYLE = {
-    "position": "relative",
+    "position": "fixed",
     "top": 5,
     "left": 400,
     "bottom": 5,
