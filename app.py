@@ -14,9 +14,18 @@ from nltk.corpus import wordnet
 
 from whitenoise import WhiteNoise
 
-from functions import text_to_vector, get_cosine, make_fig_updates, make_labels, return_fig
+from functions import make_fig_updates, make_labels, return_fig
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/wvKVvGo.css']
+
+occlist = pd.read_pickle('static/occs.pkl')
+occlist.columns = ['value', 'label']
+
+options = []
+for col in occlist.columns:
+    for o in range(0, len(occlist)):
+        options.append({'label': occlist['label'][o].format(col, col), 'value': occlist['value'][o]})
+
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
@@ -35,13 +44,12 @@ SIDEBAR_STYLE = {
 
 GRAPH_STYLE = {
     "position": "fixed",
-    "top": 100,
+    "top": 5,
     "left": 400,
     "bottom": 5,
     "width": "80rem",
     "padding": "2rem 1rem"
 }
-
 
 # the styles for the main content position it to the right of the sidebar and
 # add some padding.
@@ -58,6 +66,7 @@ slider_content = html.Div(
     html.H1(children='O*NET Explorer'),
 
     html.Div(children='''
+
         The O*NET is a widely used source of information on occupations.
         One limitation of the database is its size and complexity, making comparisons of occupations difficult.
         This tool intends to enable intuitive exploration of the data by projecting the database onto two-dimensional space.
@@ -68,18 +77,36 @@ slider_content = html.Div(
 
     dcc.Markdown(
         '''
-        **What job are you interested in?**
+
+        **Select an occupation to explore:**
+
         '''
     ),
 
-    html.Div([dcc.Input(id='query', value='e.g., molecular biologist', type='text')]),
+    dcc.Dropdown(
+        id = 'occ-dropdown',
+        options= options,
+        value= '11-3051.03'
 
+    ),
+    html.Label(id='my_label1'),
+
+    html.Button(
+        id='submit-button',
+        n_clicks=0,
+        children='Submit',
+        style={'fontSize':24, 'marginLeft':'30px'}
+    ),
+
+    html.Div(id='occ-output-container'),
 
     html.Br(),
 
     dcc.Markdown(
         '''
+
         **Select importance of job ability requirements:**
+
         '''
     ),
 
@@ -106,7 +133,9 @@ slider_content = html.Div(
 
     dcc.Markdown(
         '''
+
         **Select importance of job skill requirements:**
+
         '''
     ),
 
@@ -133,7 +162,9 @@ slider_content = html.Div(
 
     dcc.Markdown(
         '''
+
         **Select importance of job knowledge requirements:**
+
         '''
     ),
 
@@ -160,7 +191,9 @@ slider_content = html.Div(
 
     dcc.Markdown(
         '''
+
         **Select importance of work styles:**
+
         '''
     ),
 
@@ -187,7 +220,9 @@ slider_content = html.Div(
 
     dcc.Markdown(
         '''
+
         **Select importance of job-related interests:**
+
         '''
     ),
 
@@ -214,7 +249,9 @@ slider_content = html.Div(
 
     dcc.Markdown(
         '''
+
         **Select importance of work values:**
+
         '''
     ),
 
@@ -243,7 +280,7 @@ slider_content = html.Div(
 
 sidebar = html.Div(
     [
-        slider_content
+    slider_content
     ],
     style=SIDEBAR_STYLE,
 )
@@ -260,7 +297,7 @@ app.layout = html.Div([
 
 @app.callback(
     Output(component_id='graph-with-slider', component_property='figure'),
-    [Input(component_id='query', component_property='value'),
+    [Input('occ-dropdown', 'value'),
     Input('a1', 'value'),
     Input('a2', 'value'),
     Input('a3', 'value'),
