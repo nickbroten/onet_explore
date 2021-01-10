@@ -102,7 +102,7 @@ def make_fig_updates(query, q1, q2, q3, q4, q5, q6):
         size = 'Size',
         hover_data = ['SOC', 'Occupation Category', 'Title'])
 
-    fig['layout'].update(height=1000, width=1200, title='t-SNE 2D Representation of O*NET Data', font=dict(family= 'Courier New, monospace', size=24, color='black'))
+    fig['layout'].update(height=1000, width=1500, title='t-SNE 2D Representation of O*NET Data', font=dict(family= 'Courier New, monospace', size=24, color='black'))
 
     return fig
 
