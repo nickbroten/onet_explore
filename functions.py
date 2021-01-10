@@ -1,6 +1,3 @@
-import os
-os.chdir('C:/onet_explore')
-
 import numpy as np
 import pandas as pd
 from nltk.stem import PorterStemmer
