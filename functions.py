@@ -69,29 +69,17 @@ def make_labels(cats):
 
     return label_df
 
+label_df = make_labels(SOC_cats)
+
 def make_fig_updates(query, q1, q2, q3, q4, q5, q6):
 
-    ## Define labels for figure
-    label_df = make_labels(SOC_cats)
 
-    ## Build weighted datasets
-    weights = [q1, q2, q3, q4, q5, q6]
-
-    data = []
-    for i in range(0, len(weights)):
-        clean = clean_data[i].drop('SOC', axis = 1).to_numpy() * weights[i]
-        data.append(pd.DataFrame(clean))
-
-    df = pd.concat(data, axis = 1)
-
-    ## Run TSNE
-    X_TSNE = TSNE(n_components=2, perplexity = 20).fit_transform(df)
-    X_TSNE = pd.DataFrame(X_TSNE, columns = ['First component', 'Second component'])
-    X_TSNE['SOC'] = style_SOC
-    X_TSNE['Label'] = X_TSNE['SOC'].str.slice(start=0, stop=2, step=1)
-    X_TSNE = X_TSNE.merge(label_df, on = 'Label', how = 'left')
+    weights_s = [str(i) for i in [q1, q2, q3, q4, q5, q6]]
+    filename = "TSNE/X_TSNE_" + str("_".join(weights_s)) + ".csv"
+    X_TSNE = pd.read_csv(filename)
+    X_TSNE = X_TSNE.merge(label_df.Label.astype(int), on = 'Label', how = 'left')
     X_TSNE['Size'] = np.ones(len(X_TSNE)) / 2
-    X_TSNE.loc[X_TSNE['SOC'] == query, 'Size'] = 8
+    X_TSNE.loc[X_TSNE['SOC'] == query, 'Size'] = 6
     X_TSNE = X_TSNE.merge(occs, on = 'SOC', how = 'left')
 
     fig = px.scatter(
@@ -102,7 +90,7 @@ def make_fig_updates(query, q1, q2, q3, q4, q5, q6):
         size = 'Size',
         hover_data = ['SOC', 'Occupation Category', 'Title'])
 
-    fig['layout'].update(height=1000, width=1500, title='t-SNE 2D Representation of O*NET Data', font=dict(family= 'Courier New, monospace', size=24, color='black'))
+    fig['layout'].update(height=1000, width=1500, title='t-SNE 2D representation of weighted O*NET data', font=dict(family= 'Courier New, monospace', size=24, color='black'))
 
     return fig
 

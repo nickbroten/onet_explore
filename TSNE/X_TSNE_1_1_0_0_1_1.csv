@@ -1,0 +1,968 @@
+,First component,Second component,SOC,Label,Occupation Category
+0,3.3544567,32.870243,11-1011.00,11,Management
+1,4.3892717,38.501537,11-1011.03,11,Management
+2,1.667991,12.971069,11-1021.00,11,Management
+3,-2.2030473,35.928726,11-2011.00,11,Management
+4,-1.6436352,36.195942,11-2021.00,11,Management
+5,1.2296966,35.28223,11-2022.00,11,Management
+6,-3.0289469,35.502407,11-2031.00,11,Management
+7,1.1464499,13.533126,11-3011.00,11,Management
+8,18.616158,34.130016,11-3021.00,11,Management
+9,-23.339178,33.164967,11-3031.01,11,Management
+10,-0.35342464,34.861397,11-3031.02,11,Management
+11,29.865381,5.8072615,11-3051.00,11,Management
+12,30.684795,6.857801,11-3051.01,11,Management
+13,32.109562,4.528439,11-3051.02,11,Management
+14,31.126852,6.0527782,11-3051.03,11,Management
+15,31.981653,5.0282397,11-3051.04,11,Management
+16,31.179565,4.107886,11-3051.06,11,Management
+17,0.7907514,38.141838,11-3061.00,11,Management
+18,2.630114,36.61295,11-3071.01,11,Management
+19,1.3335938,12.17368,11-3071.02,11,Management
+20,1.6865584,37.070393,11-3071.03,11,Management
+21,-26.305891,27.370352,11-3111.00,11,Management
+22,0.34490272,33.854755,11-3121.00,11,Management
+23,-0.09049667,32.244396,11-3131.00,11,Management
+24,32.388683,2.0755045,11-9013.01,11,Management
+25,35.61229,0.61204964,11-9013.02,11,Management
+26,33.351154,2.3029764,11-9013.03,11,Management
+27,6.256733,19.157505,11-9021.00,11,Management
+28,1.5242335,30.868279,11-9031.00,11,Management
+29,2.5356865,31.192413,11-9032.00,11,Management
+30,-0.5064894,33.465157,11-9033.00,11,Management
+31,3.628629,36.834232,11-9039.01,11,Management
+32,3.8996692,8.850669,11-9039.02,11,Management
+33,19.54712,39.208607,11-9041.00,11,Management
+34,32.974373,22.966078,11-9041.01,11,Management
+35,-0.28883895,10.309514,11-9051.00,11,Management
+36,-6.5934825,10.975047,11-9061.00,11,Management
+37,4.5073047,16.816673,11-9071.00,11,Management
+38,3.5995715,13.534938,11-9081.00,11,Management
+39,1.5783079,33.901634,11-9111.00,11,Management
+40,5.0016127,40.46278,11-9121.00,11,Management
+41,1.4447585,40.138786,11-9121.01,11,Management
+42,20.22033,37.42371,11-9121.02,11,Management
+43,2.1958556,16.026588,11-9131.00,11,Management
+44,-29.519098,24.079561,11-9141.00,11,Management
+45,1.2777982,31.94913,11-9151.00,11,Management
+46,9.514548,18.118565,11-9161.00,11,Management
+47,-19.071283,34.103603,11-9199.01,11,Management
+48,-19.422733,35.98044,11-9199.02,11,Management
+49,-22.375938,31.845226,11-9199.03,11,Management
+50,1.5183808,38.361176,11-9199.04,11,Management
+51,34.198944,5.3939795,11-9199.07,11,Management
+52,4.939075,16.011948,11-9199.08,11,Management
+53,33.556374,4.8376174,11-9199.09,11,Management
+54,6.868478,37.491795,11-9199.10,11,Management
+55,5.738856,38.382874,11-9199.11,11,Management
+56,-7.5808086,34.690475,13-1011.00,13,Business and Financial Operations
+57,-12.8659115,11.849452,13-1021.00,13,Business and Financial Operations
+58,-13.66118,12.49711,13-1022.00,13,Business and Financial Operations
+59,-0.7327095,39.223938,13-1023.00,13,Business and Financial Operations
+60,-22.81657,19.681564,13-1031.01,13,Business and Financial Operations
+61,-22.90005,21.03274,13-1031.02,13,Business and Financial Operations
+62,-14.016972,7.2680473,13-1032.00,13,Business and Financial Operations
+63,30.200401,-7.9682984,13-1041.01,13,Business and Financial Operations
+64,5.899301,-12.673301,13-1041.02,13,Business and Financial Operations
+65,-13.457493,39.304214,13-1041.03,13,Business and Financial Operations
+66,30.918655,-8.758903,13-1041.04,13,Business and Financial Operations
+67,30.674946,-11.871355,13-1041.06,13,Business and Financial Operations
+68,-19.755081,33.490826,13-1041.07,13,Business and Financial Operations
+69,-23.358068,27.68608,13-1051.00,13,Business and Financial Operations
+70,-28.788776,18.829762,13-1071.00,13,Business and Financial Operations
+71,-19.862396,-21.382778,13-1074.00,13,Business and Financial Operations
+72,-4.401408,36.59723,13-1075.00,13,Business and Financial Operations
+73,-0.30017945,37.03441,13-1081.00,13,Business and Financial Operations
+74,22.402308,37.399395,13-1081.01,13,Business and Financial Operations
+75,-21.319761,30.65876,13-1081.02,13,Business and Financial Operations
+76,-17.98889,34.043945,13-1111.00,13,Business and Financial Operations
+77,2.611857,13.569,13-1121.00,13,Business and Financial Operations
+78,-5.6473536,34.336845,13-1131.00,13,Business and Financial Operations
+79,-24.311102,25.09158,13-1141.00,13,Business and Financial Operations
+80,-2.368622,29.702934,13-1151.00,13,Business and Financial Operations
+81,-18.027184,30.631674,13-1161.00,13,Business and Financial Operations
+82,27.372917,-14.309044,13-1199.01,13,Business and Financial Operations
+83,24.327408,23.898724,13-1199.02,13,Business and Financial Operations
+84,-23.84437,24.014425,13-1199.03,13,Business and Financial Operations
+85,3.3903842,39.01578,13-1199.04,13,Business and Financial Operations
+86,-15.798518,33.237732,13-1199.05,13,Business and Financial Operations
+87,-28.178522,24.361238,13-1199.06,13,Business and Financial Operations
+88,-22.244854,26.547255,13-2011.01,13,Business and Financial Operations
+89,-21.547009,31.31803,13-2011.02,13,Business and Financial Operations
+90,-12.510887,7.84939,13-2021.01,13,Business and Financial Operations
+91,-13.667799,7.698925,13-2021.02,13,Business and Financial Operations
+92,-22.765465,27.336916,13-2031.00,13,Business and Financial Operations
+93,-21.647354,24.963377,13-2041.00,13,Business and Financial Operations
+94,-20.417368,27.199934,13-2051.00,13,Business and Financial Operations
+95,-23.57783,30.196896,13-2052.00,13,Business and Financial Operations
+96,-27.158073,19.900524,13-2053.00,13,Business and Financial Operations
+97,-21.143055,33.351498,13-2061.00,13,Business and Financial Operations
+98,-27.571018,21.164965,13-2071.00,13,Business and Financial Operations
+99,-25.111183,21.286163,13-2071.01,13,Business and Financial Operations
+100,-28.18015,19.395008,13-2072.00,13,Business and Financial Operations
+101,-24.052103,19.838446,13-2081.00,13,Business and Financial Operations
+102,-33.64284,12.661314,13-2082.00,13,Business and Financial Operations
+103,-18.802809,28.495115,13-2099.01,13,Business and Financial Operations
+104,-21.598494,29.7551,13-2099.02,13,Business and Financial Operations
+105,-17.789175,36.07851,13-2099.04,13,Business and Financial Operations
+106,22.54272,31.794748,15-1111.00,15,Computers and Math
+107,22.26128,29.169216,15-1121.00,15,Computers and Math
+108,20.976236,33.03753,15-1121.01,15,Computers and Math
+109,22.257906,27.389614,15-1122.00,15,Computers and Math
+110,19.78135,26.716673,15-1131.00,15,Computers and Math
+111,21.096872,29.57864,15-1132.00,15,Computers and Math
+112,16.415277,23.439047,15-1133.00,15,Computers and Math
+113,20.244135,27.9528,15-1134.00,15,Computers and Math
+114,21.675201,28.705143,15-1141.00,15,Computers and Math
+115,27.709814,21.70403,15-1142.00,15,Computers and Math
+116,23.600084,29.084316,15-1143.00,15,Computers and Math
+117,25.372038,17.553564,15-1143.01,15,Computers and Math
+118,13.89652,-14.247285,15-1151.00,15,Computers and Math
+119,24.594202,17.771624,15-1152.00,15,Computers and Math
+120,21.320616,26.546152,15-1199.01,15,Computers and Math
+121,22.295158,30.600182,15-1199.02,15,Computers and Math
+122,21.366392,27.667137,15-1199.03,15,Computers and Math
+123,26.022486,32.455654,15-1199.04,15,Computers and Math
+124,22.610003,21.586048,15-1199.05,15,Computers and Math
+125,18.913908,27.989265,15-1199.06,15,Computers and Math
+126,18.303116,27.704317,15-1199.07,15,Computers and Math
+127,-17.594103,30.223562,15-1199.08,15,Computers and Math
+128,2.4369066,39.22637,15-1199.09,15,Computers and Math
+129,-12.834184,32.536957,15-1199.10,15,Computers and Math
+130,13.714475,30.529396,15-1199.11,15,Computers and Math
+131,-12.783232,31.73181,15-1199.12,15,Computers and Math
+132,-20.226927,30.960133,15-2011.00,15,Computers and Math
+133,-16.361553,27.088638,15-2021.00,15,Computers and Math
+134,-16.595835,28.034822,15-2031.00,15,Computers and Math
+135,-16.775002,26.58415,15-2041.00,15,Computers and Math
+136,-15.839379,25.6676,15-2041.01,15,Computers and Math
+137,16.080881,27.462353,15-2041.02,15,Computers and Math
+138,22.298143,41.124737,17-1011.00,17,Architechture and Engineering
+139,14.695082,36.603336,17-1012.00,17,Architechture and Engineering
+140,19.558575,21.226099,17-1021.00,17,Architechture and Engineering
+141,28.21895,-16.193506,17-1022.00,17,Architechture and Engineering
+142,27.85318,-16.905449,17-1022.01,17,Architechture and Engineering
+143,23.959654,36.04308,17-2011.00,17,Architechture and Engineering
+144,36.547977,20.747938,17-2021.00,17,Architechture and Engineering
+145,35.83332,28.220058,17-2031.00,17,Architechture and Engineering
+146,25.536581,37.53387,17-2041.00,17,Architechture and Engineering
+147,23.159426,40.028828,17-2051.00,17,Architechture and Engineering
+148,23.198187,38.478065,17-2051.01,17,Architechture and Engineering
+149,24.144314,27.484133,17-2061.00,17,Architechture and Engineering
+150,28.23981,28.486687,17-2071.00,17,Architechture and Engineering
+151,34.060623,24.822973,17-2072.00,17,Architechture and Engineering
+152,25.02103,19.552351,17-2072.01,17,Architechture and Engineering
+153,19.61734,37.302555,17-2081.00,17,Architechture and Engineering
+154,23.444914,37.365097,17-2081.01,17,Architechture and Engineering
+155,30.455833,-6.204484,17-2111.01,17,Architechture and Engineering
+156,21.6513,38.623386,17-2111.02,17,Architechture and Engineering
+157,27.645931,26.539402,17-2111.03,17,Architechture and Engineering
+158,29.104204,26.334757,17-2112.00,17,Architechture and Engineering
+159,22.710049,34.82123,17-2112.01,17,Architechture and Engineering
+160,38.09094,23.700872,17-2121.01,17,Architechture and Engineering
+161,25.845596,39.903862,17-2121.02,17,Architechture and Engineering
+162,30.541666,28.375631,17-2131.00,17,Architechture and Engineering
+163,35.381878,28.37074,17-2141.00,17,Architechture and Engineering
+164,34.47263,26.13926,17-2141.01,17,Architechture and Engineering
+165,37.04274,20.840128,17-2141.02,17,Architechture and Engineering
+166,24.474447,38.435467,17-2151.00,17,Architechture and Engineering
+167,25.398018,36.61884,17-2161.00,17,Architechture and Engineering
+168,21.441734,37.019913,17-2171.00,17,Architechture and Engineering
+169,32.769444,25.23293,17-2199.01,17,Architechture and Engineering
+170,28.748167,27.120794,17-2199.02,17,Architechture and Engineering
+171,22.820335,36.334812,17-2199.03,17,Architechture and Engineering
+172,37.733047,24.972412,17-2199.04,17,Architechture and Engineering
+173,26.588675,23.755112,17-2199.05,17,Architechture and Engineering
+174,33.61922,25.920645,17-2199.06,17,Architechture and Engineering
+175,33.35581,28.37022,17-2199.07,17,Architechture and Engineering
+176,37.541756,26.325754,17-2199.08,17,Architechture and Engineering
+177,32.48414,28.180237,17-2199.09,17,Architechture and Engineering
+178,26.553356,24.435373,17-2199.10,17,Architechture and Engineering
+179,32.55752,21.897823,17-2199.11,17,Architechture and Engineering
+180,19.8129,21.964066,17-3011.01,17,Architechture and Engineering
+181,17.347681,21.954708,17-3011.02,17,Architechture and Engineering
+182,16.531929,21.466406,17-3012.01,17,Architechture and Engineering
+183,16.995583,22.502338,17-3012.02,17,Architechture and Engineering
+184,18.400854,21.447271,17-3013.00,17,Architechture and Engineering
+185,17.806059,-18.470966,17-3021.00,17,Architechture and Engineering
+186,21.178574,21.50835,17-3022.00,17,Architechture and Engineering
+187,15.696427,-16.472252,17-3023.01,17,Architechture and Engineering
+188,15.8278055,-17.269869,17-3023.03,17,Architechture and Engineering
+189,21.34612,-34.953396,17-3024.00,17,Architechture and Engineering
+190,20.238207,-21.54547,17-3024.01,17,Architechture and Engineering
+191,26.379465,-16.162216,17-3025.00,17,Architechture and Engineering
+192,28.32625,19.097641,17-3026.00,17,Architechture and Engineering
+193,25.416615,-16.563232,17-3027.00,17,Architechture and Engineering
+194,17.921623,-22.98117,17-3027.01,17,Architechture and Engineering
+195,24.538979,-17.799751,17-3029.01,17,Architechture and Engineering
+196,25.933018,21.19147,17-3029.02,17,Architechture and Engineering
+197,17.337563,-17.717596,17-3029.03,17,Architechture and Engineering
+198,18.415312,-19.486307,17-3029.04,17,Architechture and Engineering
+199,25.25857,21.923727,17-3029.05,17,Architechture and Engineering
+200,37.383663,25.34919,17-3029.06,17,Architechture and Engineering
+201,19.257969,-21.284245,17-3029.07,17,Architechture and Engineering
+202,15.003728,-17.565298,17-3029.08,17,Architechture and Engineering
+203,16.241085,-25.018135,17-3029.09,17,Architechture and Engineering
+204,24.821457,20.718153,17-3029.11,17,Architechture and Engineering
+205,19.781973,-24.580385,17-3029.12,17,Architechture and Engineering
+206,22.083164,-17.766281,17-3031.01,17,Architechture and Engineering
+207,19.235575,20.072163,17-3031.02,17,Architechture and Engineering
+208,35.835613,17.935007,19-1011.00,19,"Life, Physical, and Social Science"
+209,31.377247,25.296587,19-1012.00,19,"Life, Physical, and Social Science"
+210,36.479187,17.503578,19-1013.00,19,"Life, Physical, and Social Science"
+211,36.105225,16.513397,19-1020.01,19,"Life, Physical, and Social Science"
+212,32.628605,30.677355,19-1021.00,19,"Life, Physical, and Social Science"
+213,31.807896,32.182484,19-1022.00,19,"Life, Physical, and Social Science"
+214,36.688274,11.796565,19-1023.00,19,"Life, Physical, and Social Science"
+215,28.036549,34.52731,19-1029.01,19,"Life, Physical, and Social Science"
+216,32.523144,31.259552,19-1029.02,19,"Life, Physical, and Social Science"
+217,29.93127,32.903942,19-1029.03,19,"Life, Physical, and Social Science"
+218,36.34108,10.119074,19-1031.01,19,"Life, Physical, and Social Science"
+219,37.371723,9.981895,19-1031.02,19,"Life, Physical, and Social Science"
+220,2.7111921,1.7183487,19-1031.03,19,"Life, Physical, and Social Science"
+221,36.532295,8.596743,19-1032.00,19,"Life, Physical, and Social Science"
+222,8.531699,47.025333,19-1041.00,19,"Life, Physical, and Social Science"
+223,28.571161,33.76416,19-1042.00,19,"Life, Physical, and Social Science"
+224,28.710653,35.509647,19-2011.00,19,"Life, Physical, and Social Science"
+225,27.977077,37.1733,19-2012.00,19,"Life, Physical, and Social Science"
+226,-0.39828673,48.954655,19-2021.00,19,"Life, Physical, and Social Science"
+227,33.190926,24.301165,19-2031.00,19,"Life, Physical, and Social Science"
+228,29.782965,28.49927,19-2032.00,19,"Life, Physical, and Social Science"
+229,36.895576,18.36608,19-2041.00,19,"Life, Physical, and Social Science"
+230,-14.929959,33.222794,19-2041.01,19,"Life, Physical, and Social Science"
+231,36.474403,10.521569,19-2041.02,19,"Life, Physical, and Social Science"
+232,-16.723051,31.399858,19-2041.03,19,"Life, Physical, and Social Science"
+233,35.392365,17.06711,19-2042.00,19,"Life, Physical, and Social Science"
+234,34.37836,17.3353,19-2043.00,19,"Life, Physical, and Social Science"
+235,26.560324,33.036777,19-2099.01,19,"Life, Physical, and Social Science"
+236,-16.338276,29.34971,19-3011.00,19,"Life, Physical, and Social Science"
+237,-15.641582,29.638544,19-3011.01,19,"Life, Physical, and Social Science"
+238,-18.670399,29.512691,19-3022.00,19,"Life, Physical, and Social Science"
+239,-11.63217,42.352524,19-3031.01,19,"Life, Physical, and Social Science"
+240,-9.330319,43.692,19-3031.02,19,"Life, Physical, and Social Science"
+241,-9.132197,42.874252,19-3031.03,19,"Life, Physical, and Social Science"
+242,4.654243,43.189575,19-3032.00,19,"Life, Physical, and Social Science"
+243,10.285593,46.26117,19-3039.01,19,"Life, Physical, and Social Science"
+244,-11.312181,56.436783,19-3041.00,19,"Life, Physical, and Social Science"
+245,16.12957,37.178947,19-3051.00,19,"Life, Physical, and Social Science"
+246,-2.1255105,50.465298,19-3091.01,19,"Life, Physical, and Social Science"
+247,37.26029,15.790939,19-3091.02,19,"Life, Physical, and Social Science"
+248,-0.9926925,49.221,19-3092.00,19,"Life, Physical, and Social Science"
+249,-13.5894785,56.86978,19-3093.00,19,"Life, Physical, and Social Science"
+250,-11.732213,56.758114,19-3094.00,19,"Life, Physical, and Social Science"
+251,17.33982,37.255795,19-3099.01,19,"Life, Physical, and Social Science"
+252,21.643124,-13.528959,19-4011.01,19,"Life, Physical, and Social Science"
+253,20.974316,-12.598774,19-4011.02,19,"Life, Physical, and Social Science"
+254,17.088924,-11.7504,19-4021.00,19,"Life, Physical, and Social Science"
+255,15.369606,-11.198847,19-4031.00,19,"Life, Physical, and Social Science"
+256,-0.32732967,-8.794083,19-4041.01,19,"Life, Physical, and Social Science"
+257,25.268429,-17.70997,19-4041.02,19,"Life, Physical, and Social Science"
+258,23.020962,-28.777649,19-4051.01,19,"Life, Physical, and Social Science"
+259,15.79422,-6.212098,19-4051.02,19,"Life, Physical, and Social Science"
+260,16.59241,25.749636,19-4061.00,19,"Life, Physical, and Social Science"
+261,-26.362015,19.085924,19-4061.01,19,"Life, Physical, and Social Science"
+262,26.391075,-15.310431,19-4091.00,19,"Life, Physical, and Social Science"
+263,30.84534,-10.411185,19-4092.00,19,"Life, Physical, and Social Science"
+264,23.182156,-17.025198,19-4093.00,19,"Life, Physical, and Social Science"
+265,16.009163,-12.248942,19-4099.01,19,"Life, Physical, and Social Science"
+266,25.733767,-15.392063,19-4099.02,19,"Life, Physical, and Social Science"
+267,23.743706,21.431229,19-4099.03,19,"Life, Physical, and Social Science"
+268,0.44874868,24.443783,21-1011.00,21,Community and Social Services
+269,-0.57840747,24.038437,21-1012.00,21,Community and Social Services
+270,-8.702292,42.409912,21-1013.00,21,Community and Social Services
+271,-7.8380756,42.408443,21-1014.00,21,Community and Social Services
+272,0.72258085,23.533102,21-1015.00,21,Community and Social Services
+273,2.4457695,23.676428,21-1021.00,21,Community and Social Services
+274,1.3151621,24.531122,21-1022.00,21,Community and Social Services
+275,1.0432421,25.58852,21-1023.00,21,Community and Social Services
+276,-7.7723436,49.526814,21-1091.00,21,Community and Social Services
+277,-4.605011,13.848777,21-1092.00,21,Community and Social Services
+278,-4.0475807,14.821553,21-1093.00,21,Community and Social Services
+279,1.7615492,4.7218657,21-1094.00,21,Community and Social Services
+280,-1.939164,31.680492,21-2011.00,21,Community and Social Services
+281,-4.3022895,34.2006,21-2021.00,21,Community and Social Services
+282,-10.61164,38.207783,23-1011.00,23,Legal
+283,-31.107567,16.856655,23-1012.00,23,Legal
+284,-11.762137,38.830475,23-1021.00,23,Legal
+285,-8.948048,36.382065,23-1022.00,23,Legal
+286,-11.703887,39.166702,23-1023.00,23,Legal
+287,-30.91808,15.120227,23-2011.00,23,Legal
+288,-37.01421,7.8853946,23-2091.00,23,Legal
+289,-31.685751,12.862188,23-2093.00,23,Legal
+290,-9.083369,55.76327,25-1011.00,25,"Education, Training, and Library"
+291,-4.461244,53.076267,25-1021.00,25,"Education, Training, and Library"
+292,-8.270728,57.282047,25-1022.00,25,"Education, Training, and Library"
+293,-3.177415,52.34983,25-1031.00,25,"Education, Training, and Library"
+294,-3.0506546,53.19409,25-1032.00,25,"Education, Training, and Library"
+295,-4.1277,57.049118,25-1041.00,25,"Education, Training, and Library"
+296,-5.1868834,54.70886,25-1042.00,25,"Education, Training, and Library"
+297,-4.3575783,57.61955,25-1043.00,25,"Education, Training, and Library"
+298,-6.441913,54.85747,25-1051.00,25,"Education, Training, and Library"
+299,-4.1752114,53.93914,25-1052.00,25,"Education, Training, and Library"
+300,-7.2660627,54.651833,25-1053.00,25,"Education, Training, and Library"
+301,-4.1490765,55.11624,25-1054.00,25,"Education, Training, and Library"
+302,-6.9452524,53.279808,25-1061.00,25,"Education, Training, and Library"
+303,-10.512079,53.63788,25-1062.00,25,"Education, Training, and Library"
+304,-8.100546,56.141,25-1063.00,25,"Education, Training, and Library"
+305,-9.967989,54.168076,25-1064.00,25,"Education, Training, and Library"
+306,-13.441079,54.67906,25-1065.00,25,"Education, Training, and Library"
+307,-10.236174,55.20466,25-1066.00,25,"Education, Training, and Library"
+308,-11.702336,54.057476,25-1067.00,25,"Education, Training, and Library"
+309,-4.6450763,56.181545,25-1071.00,25,"Education, Training, and Library"
+310,9.569968,10.417971,25-1072.00,25,"Education, Training, and Library"
+311,-10.308278,51.691444,25-1081.00,25,"Education, Training, and Library"
+312,-8.925016,53.132668,25-1082.00,25,"Education, Training, and Library"
+313,-13.191544,53.73579,25-1111.00,25,"Education, Training, and Library"
+314,-12.98588,52.2772,25-1112.00,25,"Education, Training, and Library"
+315,-9.911654,52.681965,25-1113.00,25,"Education, Training, and Library"
+316,-6.2598004,49.67065,25-1121.00,25,"Education, Training, and Library"
+317,-10.796896,52.80944,25-1122.00,25,"Education, Training, and Library"
+318,-14.109689,52.7938,25-1123.00,25,"Education, Training, and Library"
+319,-11.900785,51.676456,25-1124.00,25,"Education, Training, and Library"
+320,-12.516696,54.54414,25-1125.00,25,"Education, Training, and Library"
+321,-12.188446,53.037113,25-1126.00,25,"Education, Training, and Library"
+322,-23.343975,10.622482,25-1191.00,25,"Education, Training, and Library"
+323,-8.891964,54.20704,25-1192.00,25,"Education, Training, and Library"
+324,-8.105685,51.02198,25-1193.00,25,"Education, Training, and Library"
+325,2.7540867,1.7389815,25-1194.00,25,"Education, Training, and Library"
+326,-3.0347714,19.125166,25-2011.00,25,"Education, Training, and Library"
+327,-2.5682886,20.257437,25-2012.00,25,"Education, Training, and Library"
+328,-2.8602152,25.019445,25-2021.00,25,"Education, Training, and Library"
+329,-2.608006,27.379879,25-2022.00,25,"Education, Training, and Library"
+330,7.6262007,10.491534,25-2023.00,25,"Education, Training, and Library"
+331,-2.5890656,28.416674,25-2031.00,25,"Education, Training, and Library"
+332,8.233648,10.166824,25-2032.00,25,"Education, Training, and Library"
+333,-1.7835947,20.435463,25-2051.00,25,"Education, Training, and Library"
+334,-2.0919528,22.730917,25-2052.00,25,"Education, Training, and Library"
+335,-2.5744333,26.96638,25-2053.00,25,"Education, Training, and Library"
+336,-2.1107817,25.399187,25-2054.00,25,"Education, Training, and Library"
+337,6.4999614,6.674714,25-2059.01,25,"Education, Training, and Library"
+338,-13.276675,47.370132,25-3011.00,25,"Education, Training, and Library"
+339,-18.789719,-2.29816,25-3021.00,25,"Education, Training, and Library"
+340,-13.374643,47.96912,25-3099.02,25,"Education, Training, and Library"
+341,-15.955452,18.196507,25-4011.00,25,"Education, Training, and Library"
+342,7.962523,37.13963,25-4012.00,25,"Education, Training, and Library"
+343,10.771595,-11.595895,25-4013.00,25,"Education, Training, and Library"
+344,-16.452406,18.609571,25-4021.00,25,"Education, Training, and Library"
+345,-28.951077,-9.455032,25-4031.00,25,"Education, Training, and Library"
+346,13.034613,-16.612955,25-9011.00,25,"Education, Training, and Library"
+347,9.681264,18.05925,25-9021.00,25,"Education, Training, and Library"
+348,-1.3381497,30.608856,25-9031.00,25,"Education, Training, and Library"
+349,-11.929248,33.308937,25-9031.01,25,"Education, Training, and Library"
+350,-18.896317,-2.8797522,25-9041.00,25,"Education, Training, and Library"
+351,11.154552,34.810543,27-1011.00,27,"Arts, Design, Entertainment, and Media"
+352,-11.0673895,-16.457119,27-1012.00,27,"Arts, Design, Entertainment, and Media"
+353,-10.836393,-15.832149,27-1013.00,27,"Arts, Design, Entertainment, and Media"
+354,11.877739,28.381824,27-1014.00,27,"Arts, Design, Entertainment, and Media"
+355,12.461497,30.366976,27-1021.00,27,"Arts, Design, Entertainment, and Media"
+356,11.080154,35.451714,27-1022.00,27,"Arts, Design, Entertainment, and Media"
+357,-11.340027,-13.575492,27-1023.00,27,"Arts, Design, Entertainment, and Media"
+358,11.230765,28.276674,27-1024.00,27,"Arts, Design, Entertainment, and Media"
+359,12.797048,36.034077,27-1025.00,27,"Arts, Design, Entertainment, and Media"
+360,-10.977882,-13.549982,27-1026.00,27,"Arts, Design, Entertainment, and Media"
+361,39.694252,5.5061545,27-1027.00,27,"Arts, Design, Entertainment, and Media"
+362,-18.918867,-0.37442592,27-2011.00,27,"Arts, Design, Entertainment, and Media"
+363,6.752361,34.581043,27-2012.01,27,"Arts, Design, Entertainment, and Media"
+364,8.243751,34.391884,27-2012.02,27,"Arts, Design, Entertainment, and Media"
+365,5.9585905,34.59332,27-2012.03,27,"Arts, Design, Entertainment, and Media"
+366,-7.8202624,32.70454,27-2012.04,27,"Arts, Design, Entertainment, and Media"
+367,31.282194,7.924588,27-2012.05,27,"Arts, Design, Entertainment, and Media"
+368,-8.111216,-1.7164487,27-2021.00,27,"Arts, Design, Entertainment, and Media"
+369,7.188136,13.754612,27-2022.00,27,"Arts, Design, Entertainment, and Media"
+370,3.7044327,-14.777213,27-2023.00,27,"Arts, Design, Entertainment, and Media"
+371,-9.967948,-2.440791,27-2031.00,27,"Arts, Design, Entertainment, and Media"
+372,-5.3589363,1.1572955,27-2032.00,27,"Arts, Design, Entertainment, and Media"
+373,-0.49831367,18.552252,27-2041.01,27,"Arts, Design, Entertainment, and Media"
+374,-10.128725,24.793327,27-2041.04,27,"Arts, Design, Entertainment, and Media"
+375,-19.555105,-0.63041466,27-2042.01,27,"Arts, Design, Entertainment, and Media"
+376,-15.675492,-8.546306,27-2042.02,27,"Arts, Design, Entertainment, and Media"
+377,-7.6036754,27.151358,27-3011.00,27,"Arts, Design, Entertainment, and Media"
+378,-20.331488,-4.522215,27-3012.00,27,"Arts, Design, Entertainment, and Media"
+379,-6.4242144,29.607683,27-3021.00,27,"Arts, Design, Entertainment, and Media"
+380,-8.826973,27.961903,27-3022.00,27,"Arts, Design, Entertainment, and Media"
+381,-6.842741,34.16828,27-3031.00,27,"Arts, Design, Entertainment, and Media"
+382,-7.926472,29.91475,27-3041.00,27,"Arts, Design, Entertainment, and Media"
+383,-10.606097,27.4019,27-3042.00,27,"Arts, Design, Entertainment, and Media"
+384,-9.745217,28.705935,27-3043.04,27,"Arts, Design, Entertainment, and Media"
+385,-10.341436,26.711853,27-3043.05,27,"Arts, Design, Entertainment, and Media"
+386,-5.6599813,23.56562,27-3091.00,27,"Arts, Design, Entertainment, and Media"
+387,14.3101015,-22.266533,27-4011.00,27,"Arts, Design, Entertainment, and Media"
+388,15.29927,-22.565842,27-4012.00,27,"Arts, Design, Entertainment, and Media"
+389,-19.20332,15.333115,27-4013.00,27,"Arts, Design, Entertainment, and Media"
+390,11.459869,-16.918987,27-4014.00,27,"Arts, Design, Entertainment, and Media"
+391,7.7298803,-20.846277,27-4021.00,27,"Arts, Design, Entertainment, and Media"
+392,8.133602,-21.129564,27-4031.00,27,"Arts, Design, Entertainment, and Media"
+393,11.922889,27.821547,27-4032.00,27,"Arts, Design, Entertainment, and Media"
+394,9.343732,5.7902594,29-1011.00,29,Healthcare Practitioner
+395,19.026014,4.01959,29-1021.00,29,Healthcare Practitioner
+396,18.14017,3.9090903,29-1022.00,29,Healthcare Practitioner
+397,17.787418,9.315236,29-1023.00,29,Healthcare Practitioner
+398,14.03258,1.2762525,29-1024.00,29,Healthcare Practitioner
+399,2.8969116,42.39522,29-1031.00,29,Healthcare Practitioner
+400,19.11816,9.363281,29-1041.00,29,Healthcare Practitioner
+401,13.15168,11.165773,29-1051.00,29,Healthcare Practitioner
+402,16.852642,4.7202606,29-1061.00,29,Healthcare Practitioner
+403,12.926463,47.91357,29-1062.00,29,Healthcare Practitioner
+404,12.557065,46.817646,29-1063.00,29,Healthcare Practitioner
+405,14.726634,8.449479,29-1064.00,29,Healthcare Practitioner
+406,13.1401005,47.551304,29-1065.00,29,Healthcare Practitioner
+407,-6.9995365,41.705555,29-1066.00,29,Healthcare Practitioner
+408,17.950407,4.5856986,29-1067.00,29,Healthcare Practitioner
+409,10.963294,47.679447,29-1069.01,29,Healthcare Practitioner
+410,15.113754,9.543733,29-1069.02,29,Healthcare Practitioner
+411,13.0242815,9.4023285,29-1069.03,29,Healthcare Practitioner
+412,10.434387,47.492676,29-1069.04,29,Healthcare Practitioner
+413,20.441292,8.2360735,29-1069.05,29,Healthcare Practitioner
+414,20.59842,8.078371,29-1069.06,29,Healthcare Practitioner
+415,31.755589,33.288982,29-1069.07,29,Healthcare Practitioner
+416,14.878374,7.166478,29-1069.08,29,Healthcare Practitioner
+417,9.318265,47.2026,29-1069.09,29,Healthcare Practitioner
+418,17.563745,6.4305043,29-1069.10,29,Healthcare Practitioner
+419,15.978589,6.3627152,29-1069.11,29,Healthcare Practitioner
+420,16.756203,6.430013,29-1069.12,29,Healthcare Practitioner
+421,12.793671,8.792557,29-1071.00,29,Healthcare Practitioner
+422,14.147343,-5.877871,29-1071.01,29,Healthcare Practitioner
+423,18.882483,9.939309,29-1081.00,29,Healthcare Practitioner
+424,9.226204,7.767832,29-1122.00,29,Healthcare Practitioner
+425,2.3788261,4.625061,29-1122.01,29,Healthcare Practitioner
+426,9.30594,6.5933857,29-1123.00,29,Healthcare Practitioner
+427,10.717619,-5.771725,29-1124.00,29,Healthcare Practitioner
+428,0.67543954,4.005233,29-1125.00,29,Healthcare Practitioner
+429,0.38267282,21.890541,29-1125.01,29,Healthcare Practitioner
+430,-0.6409539,19.34708,29-1125.02,29,Healthcare Practitioner
+431,11.013699,-6.1746993,29-1126.00,29,Healthcare Practitioner
+432,-4.1980023,24.451567,29-1127.00,29,Healthcare Practitioner
+433,7.8514028,7.5999064,29-1128.00,29,Healthcare Practitioner
+434,15.761673,8.325052,29-1131.00,29,Healthcare Practitioner
+435,11.9213505,5.566308,29-1141.00,29,Healthcare Practitioner
+436,11.596061,9.401683,29-1141.01,29,Healthcare Practitioner
+437,-0.03763843,25.678808,29-1141.02,29,Healthcare Practitioner
+438,12.660153,5.268256,29-1141.03,29,Healthcare Practitioner
+439,12.246262,6.7308903,29-1141.04,29,Healthcare Practitioner
+440,17.242336,1.7078866,29-1151.00,29,Healthcare Practitioner
+441,11.029685,8.379041,29-1161.00,29,Healthcare Practitioner
+442,12.816387,7.880378,29-1171.00,29,Healthcare Practitioner
+443,19.369957,11.0223055,29-1181.00,29,Healthcare Practitioner
+444,5.745727,-3.0770981,29-1199.01,29,Healthcare Practitioner
+445,11.54263,46.151314,29-1199.04,29,Healthcare Practitioner
+446,15.851053,12.675973,29-1199.05,29,Healthcare Practitioner
+447,15.617011,-10.794963,29-2011.00,29,Healthcare Practitioner
+448,19.474733,-8.512866,29-2011.01,29,Healthcare Practitioner
+449,18.600037,-9.411327,29-2011.02,29,Healthcare Practitioner
+450,17.96345,-9.825131,29-2011.03,29,Healthcare Practitioner
+451,14.23013,-10.806463,29-2012.00,29,Healthcare Practitioner
+452,4.1956353,-6.7457337,29-2021.00,29,Healthcare Practitioner
+453,12.626471,-7.6540976,29-2031.00,29,Healthcare Practitioner
+454,11.993552,-7.5654044,29-2032.00,29,Healthcare Practitioner
+455,13.090153,-8.26437,29-2033.00,29,Healthcare Practitioner
+456,6.221613,-6.7344,29-2034.00,29,Healthcare Practitioner
+457,12.076241,-9.911076,29-2035.00,29,Healthcare Practitioner
+458,38.497303,-7.2849107,29-2041.00,29,Healthcare Practitioner
+459,1.886472,-3.8591397,29-2051.00,29,Healthcare Practitioner
+460,1.0685121,-5.84289,29-2052.00,29,Healthcare Practitioner
+461,-0.061360452,3.2775323,29-2053.00,29,Healthcare Practitioner
+462,11.274658,-7.859472,29-2054.00,29,Healthcare Practitioner
+463,12.894085,-6.054963,29-2055.00,29,Healthcare Practitioner
+464,12.948518,-10.014009,29-2056.00,29,Healthcare Practitioner
+465,1.2439183,-7.3166156,29-2057.00,29,Healthcare Practitioner
+466,10.9427,5.0188694,29-2061.00,29,Healthcare Practitioner
+467,-34.679295,6.4579024,29-2071.00,29,Healthcare Practitioner
+468,-10.532562,3.8567643,29-2081.00,29,Healthcare Practitioner
+469,13.895187,2.4836276,29-2091.00,29,Healthcare Practitioner
+470,10.394868,-15.5815935,29-2092.00,29,Healthcare Practitioner
+471,13.872001,-9.234114,29-2099.01,29,Healthcare Practitioner
+472,2.8269556,-6.5408854,29-2099.05,29,Healthcare Practitioner
+473,5.421793,-7.0130095,29-2099.06,29,Healthcare Practitioner
+474,13.815879,-4.139716,29-2099.07,29,Healthcare Practitioner
+475,30.2733,-6.9998045,29-9011.00,29,Healthcare Practitioner
+476,26.387632,-10.724786,29-9012.00,29,Healthcare Practitioner
+477,7.967816,6.6180015,29-9091.00,29,Healthcare Practitioner
+478,-12.543741,42.099564,29-9092.00,29,Healthcare Practitioner
+479,8.015218,5.023848,29-9099.01,29,Healthcare Practitioner
+480,-5.937815,-3.9495738,31-1011.00,31,Healthcare Support
+481,-4.7019043,-3.424235,31-1013.00,31,Healthcare Support
+482,-11.097976,-7.198363,31-1014.00,31,Healthcare Support
+483,-29.08771,-23.46571,31-1015.00,31,Healthcare Support
+484,4.7772446,-3.9438155,31-2011.00,31,Healthcare Support
+485,-7.087116,-5.12336,31-2012.00,31,Healthcare Support
+486,5.782147,-4.843106,31-2021.00,31,Healthcare Support
+487,-9.362279,-7.1477675,31-2022.00,31,Healthcare Support
+488,-10.707853,-5.472293,31-9011.00,31,Healthcare Support
+489,2.4166696,-8.600758,31-9091.00,31,Healthcare Support
+490,3.8812945,-4.2875867,31-9092.00,31,Healthcare Support
+491,6.592683,-39.285275,31-9093.00,31,Healthcare Support
+492,-36.422043,8.631095,31-9094.00,31,Healthcare Support
+493,-27.941084,-10.227065,31-9095.00,31,Healthcare Support
+494,-8.936435,-7.888669,31-9096.00,31,Healthcare Support
+495,2.316165,-7.3408427,31-9097.00,31,Healthcare Support
+496,-21.112959,17.675463,31-9099.01,31,Healthcare Support
+497,3.4804847,-8.447628,31-9099.02,31,Healthcare Support
+498,37.223244,-11.593423,33-1011.00,33,Protective Service
+499,36.514774,-9.657674,33-1012.00,33,Protective Service
+500,37.37057,-4.2797127,33-1021.01,33,Protective Service
+501,37.105232,-3.2672198,33-1021.02,33,Protective Service
+502,39.728924,-7.92767,33-2011.01,33,Protective Service
+503,39.953495,-7.977083,33-2011.02,33,Protective Service
+504,29.180798,-9.007376,33-2021.01,33,Protective Service
+505,31.520002,-11.1415825,33-2021.02,33,Protective Service
+506,31.362303,-3.0478997,33-2022.00,33,Protective Service
+507,-19.685701,-16.521736,33-3011.00,33,Protective Service
+508,36.353134,-13.15421,33-3012.00,33,Protective Service
+509,33.545887,-10.886041,33-3021.01,33,Protective Service
+510,28.175724,-11.161178,33-3021.02,33,Protective Service
+511,33.340992,-10.750544,33-3021.03,33,Protective Service
+512,29.080626,-11.285633,33-3021.05,33,Protective Service
+513,-16.001427,36.850304,33-3021.06,33,Protective Service
+514,33.17504,-13.343625,33-3031.00,33,Protective Service
+515,-18.089499,-23.744555,33-3041.00,33,Protective Service
+516,35.930523,-12.165186,33-3051.01,33,Protective Service
+517,36.04168,-11.311104,33-3051.03,33,Protective Service
+518,35.627686,-13.102387,33-3052.00,33,Protective Service
+519,-6.1495914,-5.7696157,33-9011.00,33,Protective Service
+520,-11.67259,7.3434515,33-9021.00,33,Protective Service
+521,4.63559,-14.920328,33-9031.00,33,Protective Service
+522,-18.948738,-16.735891,33-9032.00,33,Protective Service
+523,-32.070713,-17.724857,33-9091.00,33,Protective Service
+524,-18.242403,-16.480532,33-9092.00,33,Protective Service
+525,17.351593,-31.054628,33-9093.00,33,Protective Service
+526,5.2741046,-13.562356,33-9099.02,33,Protective Service
+527,0.5027704,9.551363,35-1011.00,35,Food Preparation
+528,-0.8410991,10.252607,35-1012.00,35,Food Preparation
+529,-31.218603,-21.495998,35-2011.00,35,Food Preparation
+530,-13.845355,-18.813723,35-2012.00,35,Food Preparation
+531,-12.188321,-17.074705,35-2013.00,35,Food Preparation
+532,-13.135287,-19.209606,35-2014.00,35,Food Preparation
+533,-22.297785,-12.596522,35-2015.00,35,Food Preparation
+534,-29.948694,-22.439125,35-2021.00,35,Food Preparation
+535,-21.607885,-10.572292,35-3011.00,35,Food Preparation
+536,-30.0801,-20.935005,35-3021.00,35,Food Preparation
+537,-29.504805,-15.03186,35-3022.00,35,Food Preparation
+538,-23.458506,-12.767289,35-3022.01,35,Food Preparation
+539,-28.141752,-15.89765,35-3031.00,35,Food Preparation
+540,-30.969816,-19.712816,35-3041.00,35,Food Preparation
+541,-32.194332,-24.888317,35-9011.00,35,Food Preparation
+542,-31.738132,-34.467693,35-9021.00,35,Food Preparation
+543,-29.231512,-15.977746,35-9031.00,35,Food Preparation
+544,-3.010604,6.5344224,37-1011.00,37,Building and Grounds Cleaning and Maintenance
+545,31.944735,-1.1467263,37-1012.00,37,Building and Grounds Cleaning and Maintenance
+546,-32.837738,-28.343237,37-2011.00,37,Building and Grounds Cleaning and Maintenance
+547,-32.063904,-24.182999,37-2012.00,37,Building and Grounds Cleaning and Maintenance
+548,21.699297,-16.521137,37-2021.00,37,Building and Grounds Cleaning and Maintenance
+549,-28.947393,-38.146408,37-3011.00,37,Building and Grounds Cleaning and Maintenance
+550,-14.806154,-37.145164,37-3012.00,37,Building and Grounds Cleaning and Maintenance
+551,-8.1467905,-54.198917,37-3013.00,37,Building and Grounds Cleaning and Maintenance
+552,-6.3358326,16.8207,39-1011.00,39,Personal Care and Service
+553,-22.763103,-9.132766,39-1012.00,39,Personal Care and Service
+554,-2.6073132,12.81434,39-1021.00,39,Personal Care and Service
+555,2.476565,14.806367,39-1021.01,39,Personal Care and Service
+556,-5.055689,-6.272326,39-2011.00,39,Personal Care and Service
+557,-28.598276,-21.01165,39-2021.00,39,Personal Care and Service
+558,-26.442999,-10.649999,39-3011.00,39,Personal Care and Service
+559,-26.391052,-9.821399,39-3012.00,39,Personal Care and Service
+560,-10.734174,-33.282307,39-3021.00,39,Personal Care and Service
+561,-30.087015,-17.66247,39-3031.00,39,Personal Care and Service
+562,-30.203741,-18.7901,39-3091.00,39,Personal Care and Service
+563,-26.371973,-19.634357,39-3092.00,39,Personal Care and Service
+564,-34.845306,-21.512493,39-3093.00,39,Personal Care and Service
+565,1.6525078,-10.3057165,39-4011.00,39,Personal Care and Service
+566,-32.012466,-19.183,39-4021.00,39,Personal Care and Service
+567,-3.1697211,9.817398,39-4031.00,39,Personal Care and Service
+568,-24.209053,-18.88204,39-5011.00,39,Personal Care and Service
+569,-12.559237,-12.230182,39-5012.00,39,Personal Care and Service
+570,-12.110237,-13.145197,39-5091.00,39,Personal Care and Service
+571,-33.600693,-20.347527,39-5092.00,39,Personal Care and Service
+572,-33.29299,-21.45328,39-5093.00,39,Personal Care and Service
+573,-13.285223,-10.845653,39-5094.00,39,Personal Care and Service
+574,-20.260384,-24.061918,39-6011.00,39,Personal Care and Service
+575,-22.759232,-2.095087,39-6012.00,39,Personal Care and Service
+576,-21.149574,-1.6577817,39-7011.00,39,Personal Care and Service
+577,-7.7758613,11.207394,39-7012.00,39,Personal Care and Service
+578,-17.4741,-3.646419,39-9011.00,39,Personal Care and Service
+579,-4.0090976,-0.7848779,39-9011.01,39,Personal Care and Service
+580,-11.4922085,-7.0071664,39-9021.00,39,Personal Care and Service
+581,-9.202263,-2.7097893,39-9031.00,39,Personal Care and Service
+582,-2.0344772,13.972616,39-9032.00,39,Personal Care and Service
+583,-3.2383363,13.271742,39-9041.00,39,Personal Care and Service
+584,-1.2934487,11.167663,41-1011.00,41,Sales and Related
+585,1.273894,36.234608,41-1012.00,41,Sales and Related
+586,-26.657265,-12.290828,41-2011.00,41,Sales and Related
+587,-25.121857,-11.347457,41-2012.00,41,Sales and Related
+588,-22.831213,-10.411271,41-2021.00,41,Sales and Related
+589,-20.739298,-7.9867573,41-2022.00,41,Sales and Related
+590,-22.54816,-4.7386518,41-2031.00,41,Sales and Related
+591,-10.536011,14.656871,41-3011.00,41,Sales and Related
+592,-28.423632,20.715677,41-3021.00,41,Sales and Related
+593,-23.976637,30.416592,41-3031.01,41,Sales and Related
+594,-26.304352,23.02092,41-3031.02,41,Sales and Related
+595,-26.143482,24.964705,41-3031.03,41,Sales and Related
+596,-25.504484,14.805269,41-3041.00,41,Sales and Related
+597,-26.569427,24.283363,41-3099.01,41,Sales and Related
+598,-11.253388,15.1798315,41-4011.00,41,Sales and Related
+599,-11.929682,11.965476,41-4011.07,41,Sales and Related
+600,-9.602882,11.4000845,41-4012.00,41,Sales and Related
+601,-21.811644,-5.2114234,41-9011.00,41,Sales and Related
+602,-35.218002,-22.753206,41-9012.00,41,Sales and Related
+603,-30.60666,22.598856,41-9021.00,41,Sales and Related
+604,-8.619631,11.6321125,41-9022.00,41,Sales and Related
+605,18.100763,39.7793,41-9031.00,41,Sales and Related
+606,-28.440407,3.0099983,41-9041.00,41,Sales and Related
+607,-24.092726,-0.4524748,41-9091.00,41,Sales and Related
+608,2.2937121,16.784172,43-1011.00,43,Office and Administrative Support
+609,-30.744493,5.851107,43-2011.00,43,Office and Administrative Support
+610,-30.367235,5.1459193,43-2021.00,43,Office and Administrative Support
+611,-28.883833,8.712189,43-3011.00,43,Office and Administrative Support
+612,-33.83509,8.779987,43-3021.01,43,Office and Administrative Support
+613,-32.602116,9.314682,43-3021.02,43,Office and Administrative Support
+614,-34.30869,11.292976,43-3031.00,43,Office and Administrative Support
+615,-26.902843,-7.6682525,43-3041.00,43,Office and Administrative Support
+616,-33.558887,10.280749,43-3051.00,43,Office and Administrative Support
+617,-33.595814,15.265332,43-3061.00,43,Office and Administrative Support
+618,-24.469711,-7.941247,43-3071.00,43,Office and Administrative Support
+619,-24.533768,18.090345,43-4011.00,43,Office and Administrative Support
+620,-28.730919,14.163789,43-4021.00,43,Office and Administrative Support
+621,-29.601648,11.129688,43-4031.01,43,Office and Administrative Support
+622,-33.845913,14.5040865,43-4031.02,43,Office and Administrative Support
+623,-31.788673,6.986164,43-4031.03,43,Office and Administrative Support
+624,-27.379768,16.53773,43-4041.01,43,Office and Administrative Support
+625,-28.497267,10.974147,43-4041.02,43,Office and Administrative Support
+626,-30.199251,9.157945,43-4051.00,43,Office and Administrative Support
+627,-3.9433794,16.93941,43-4051.03,43,Office and Administrative Support
+628,-29.004025,16.898348,43-4061.00,43,Office and Administrative Support
+629,-34.948353,3.8461437,43-4071.00,43,Office and Administrative Support
+630,-23.34775,-3.7639675,43-4081.00,43,Office and Administrative Support
+631,-30.591824,8.476196,43-4111.00,43,Office and Administrative Support
+632,-28.866488,-9.028212,43-4121.00,43,Office and Administrative Support
+633,-24.14899,19.705824,43-4131.00,43,Office and Administrative Support
+634,-31.67719,10.608543,43-4141.00,43,Office and Administrative Support
+635,-23.222857,15.522255,43-4151.00,43,Office and Administrative Support
+636,-29.984564,14.2840605,43-4161.00,43,Office and Administrative Support
+637,-29.234661,7.1525216,43-4171.00,43,Office and Administrative Support
+638,-22.205477,-6.000299,43-4181.00,43,Office and Administrative Support
+639,-28.43728,8.516425,43-5011.00,43,Office and Administrative Support
+640,-23.4194,22.98217,43-5011.01,43,Office and Administrative Support
+641,-20.370317,-25.119192,43-5021.00,43,Office and Administrative Support
+642,8.348125,-0.35363996,43-5031.00,43,Office and Administrative Support
+643,-21.74157,18.35367,43-5032.00,43,Office and Administrative Support
+644,-17.375095,-23.726679,43-5041.00,43,Office and Administrative Support
+645,-24.96047,-10.218237,43-5051.00,43,Office and Administrative Support
+646,-22.946732,-25.700262,43-5052.00,43,Office and Administrative Support
+647,-25.880873,-28.286654,43-5053.00,43,Office and Administrative Support
+648,-12.98846,9.944673,43-5061.00,43,Office and Administrative Support
+649,-16.92648,-22.765398,43-5071.00,43,Office and Administrative Support
+650,-28.199821,-20.25573,43-5081.01,43,Office and Administrative Support
+651,-32.55269,-22.098549,43-5081.02,43,Office and Administrative Support
+652,-27.714983,-22.34348,43-5081.03,43,Office and Administrative Support
+653,-30.9544,-22.849377,43-5081.04,43,Office and Administrative Support
+654,-2.5925927,-26.53767,43-5111.00,43,Office and Administrative Support
+655,-23.314175,16.431902,43-6011.00,43,Office and Administrative Support
+656,-31.246054,11.917773,43-6012.00,43,Office and Administrative Support
+657,-30.712578,7.71406,43-6013.00,43,Office and Administrative Support
+658,-30.291594,12.255988,43-6014.00,43,Office and Administrative Support
+659,16.354486,-8.368774,43-9011.00,43,Office and Administrative Support
+660,-35.742622,3.7620647,43-9021.00,43,Office and Administrative Support
+661,-35.821045,5.50176,43-9022.00,43,Office and Administrative Support
+662,40.14087,5.292027,43-9031.00,43,Office and Administrative Support
+663,-32.231068,11.018052,43-9041.01,43,Office and Administrative Support
+664,-33.46617,11.271221,43-9041.02,43,Office and Administrative Support
+665,-25.370176,-29.004654,43-9051.00,43,Office and Administrative Support
+666,-28.928465,7.109912,43-9061.00,43,Office and Administrative Support
+667,-9.626059,-26.266647,43-9071.00,43,Office and Administrative Support
+668,-36.506218,9.748499,43-9081.00,43,Office and Administrative Support
+669,-18.88991,24.950296,43-9111.00,43,Office and Administrative Support
+670,25.311504,31.504044,43-9111.01,43,Office and Administrative Support
+671,35.18551,-1.7217779,45-1011.05,45,"Farming, Fishing, and Forestry"
+672,33.658787,1.1161419,45-1011.06,45,"Farming, Fishing, and Forestry"
+673,33.95335,-1.160963,45-1011.07,45,"Farming, Fishing, and Forestry"
+674,33.70285,0.35509992,45-1011.08,45,"Farming, Fishing, and Forestry"
+675,26.59947,-9.228389,45-2011.00,45,"Farming, Fishing, and Forestry"
+676,-19.707294,-36.396015,45-2021.00,45,"Farming, Fishing, and Forestry"
+677,-34.236916,-30.151676,45-2041.00,45,"Farming, Fishing, and Forestry"
+678,-14.496366,-47.736317,45-2091.00,45,"Farming, Fishing, and Forestry"
+679,-25.251585,-41.105103,45-2092.01,45,"Farming, Fishing, and Forestry"
+680,-28.947182,-40.58617,45-2092.02,45,"Farming, Fishing, and Forestry"
+681,-8.239774,-44.845592,45-2093.00,45,"Farming, Fishing, and Forestry"
+682,-8.605595,-52.98934,45-3011.00,45,"Farming, Fishing, and Forestry"
+683,-16.590643,-45.084545,45-3021.00,45,"Farming, Fishing, and Forestry"
+684,3.7877734,-29.251049,45-4011.00,45,"Farming, Fishing, and Forestry"
+685,-17.282171,-49.922188,45-4021.00,45,"Farming, Fishing, and Forestry"
+686,-10.954108,-49.493633,45-4022.00,45,"Farming, Fishing, and Forestry"
+687,-1.7975304,-26.963814,45-4023.00,45,"Farming, Fishing, and Forestry"
+688,32.123154,-0.727493,47-1011.00,47,Construction and Extraction
+689,34.73396,1.4009781,47-1011.03,47,Construction and Extraction
+690,11.388203,-41.131084,47-2011.00,47,Construction and Extraction
+691,2.0575526,-33.43964,47-2021.00,47,Construction and Extraction
+692,2.764568,-30.990038,47-2022.00,47,Construction and Extraction
+693,3.3718035,-33.64438,47-2031.01,47,Construction and Extraction
+694,4.500462,-32.33703,47-2031.02,47,Construction and Extraction
+695,-19.277401,-44.264214,47-2041.00,47,Construction and Extraction
+696,-22.542297,-35.61689,47-2042.00,47,Construction and Extraction
+697,-25.977678,-38.92307,47-2043.00,47,Construction and Extraction
+698,3.0210936,-32.11079,47-2044.00,47,Construction and Extraction
+699,-19.65291,-45.41396,47-2051.00,47,Construction and Extraction
+700,-18.76725,-45.79919,47-2053.00,47,Construction and Extraction
+701,-22.601633,-42.551125,47-2061.00,47,Construction and Extraction
+702,-15.409778,-49.1735,47-2071.00,47,Construction and Extraction
+703,-14.364623,-49.686775,47-2072.00,47,Construction and Extraction
+704,-2.9435785,-50.798454,47-2073.00,47,Construction and Extraction
+705,-20.717602,-44.657017,47-2081.00,47,Construction and Extraction
+706,-29.197416,-36.926155,47-2082.00,47,Construction and Extraction
+707,18.961163,-39.864117,47-2111.00,47,Construction and Extraction
+708,-21.366499,-38.392284,47-2121.00,47,Construction and Extraction
+709,-17.528067,-43.159557,47-2131.00,47,Construction and Extraction
+710,-14.278408,-38.35662,47-2132.00,47,Construction and Extraction
+711,-21.791374,-37.67782,47-2141.00,47,Construction and Extraction
+712,-23.209633,-36.190742,47-2142.00,47,Construction and Extraction
+713,-16.836916,-41.74377,47-2151.00,47,Construction and Extraction
+714,11.890028,-38.92209,47-2152.01,47,Construction and Extraction
+715,12.7556925,-38.672207,47-2152.02,47,Construction and Extraction
+716,-18.485107,-43.82333,47-2161.00,47,Construction and Extraction
+717,-19.975065,-46.737103,47-2171.00,47,Construction and Extraction
+718,-21.360073,-45.550785,47-2181.00,47,Construction and Extraction
+719,-0.36109954,-38.72213,47-2211.00,47,Construction and Extraction
+720,-7.59881,-56.10514,47-2221.00,47,Construction and Extraction
+721,11.812054,-37.16919,47-2231.00,47,Construction and Extraction
+722,-19.10165,-47.064243,47-3011.00,47,Construction and Extraction
+723,-18.704195,-42.287025,47-3012.00,47,Construction and Extraction
+724,-22.502466,-40.71684,47-3013.00,47,Construction and Extraction
+725,-29.099287,-39.37812,47-3014.00,47,Construction and Extraction
+726,-23.602041,-40.131435,47-3015.00,47,Construction and Extraction
+727,-19.265955,-48.266098,47-3016.00,47,Construction and Extraction
+728,25.994333,-10.247979,47-4011.00,47,Construction and Extraction
+729,21.55978,-38.473484,47-4021.00,47,Construction and Extraction
+730,-20.377075,-43.022453,47-4031.00,47,Construction and Extraction
+731,18.456312,-31.86108,47-4041.00,47,Construction and Extraction
+732,-7.080424,-48.706486,47-4051.00,47,Construction and Extraction
+733,-5.896823,-52.37935,47-4061.00,47,Construction and Extraction
+734,-6.110779,-53.18324,47-4071.00,47,Construction and Extraction
+735,2.5330212,-29.87652,47-4091.00,47,Construction and Extraction
+736,14.0097885,-36.5843,47-4099.02,47,Construction and Extraction
+737,12.846198,-36.962303,47-4099.03,47,Construction and Extraction
+738,2.1635337,-51.60769,47-5011.00,47,Construction and Extraction
+739,18.96664,-32.426964,47-5012.00,47,Construction and Extraction
+740,2.8359876,-50.803345,47-5013.00,47,Construction and Extraction
+741,-2.7154374,-49.895035,47-5021.00,47,Construction and Extraction
+742,22.935026,-39.78946,47-5031.00,47,Construction and Extraction
+743,-5.6734548,-51.32087,47-5041.00,47,Construction and Extraction
+744,-5.251613,-53.805145,47-5042.00,47,Construction and Extraction
+745,-26.523945,-39.229633,47-5051.00,47,Construction and Extraction
+746,-7.8707795,-54.790524,47-5061.00,47,Construction and Extraction
+747,-16.434658,-48.626972,47-5071.00,47,Construction and Extraction
+748,-6.801828,-52.040565,47-5081.00,47,Construction and Extraction
+749,34.72873,2.4845896,49-1011.00,49,"Installation, Maintenance, and Repair"
+750,10.691828,-32.583893,49-2011.00,49,"Installation, Maintenance, and Repair"
+751,11.316365,-36.69841,49-2021.00,49,"Installation, Maintenance, and Repair"
+752,11.605409,-32.37434,49-2021.01,49,"Installation, Maintenance, and Repair"
+753,19.23272,-38.47129,49-2022.00,49,"Installation, Maintenance, and Repair"
+754,15.393439,-24.327179,49-2091.00,49,"Installation, Maintenance, and Repair"
+755,15.925014,-41.75249,49-2092.00,49,"Installation, Maintenance, and Repair"
+756,9.380036,-32.56906,49-2093.00,49,"Installation, Maintenance, and Repair"
+757,18.83304,-37.215725,49-2094.00,49,"Installation, Maintenance, and Repair"
+758,16.232008,-27.210554,49-2095.00,49,"Installation, Maintenance, and Repair"
+759,11.223863,-34.278282,49-2096.00,49,"Installation, Maintenance, and Repair"
+760,13.594082,-30.20224,49-2097.00,49,"Installation, Maintenance, and Repair"
+761,8.289159,-37.229443,49-2098.00,49,"Installation, Maintenance, and Repair"
+762,19.936958,-37.368538,49-3011.00,49,"Installation, Maintenance, and Repair"
+763,4.9897647,-37.14398,49-3021.00,49,"Installation, Maintenance, and Repair"
+764,-19.938675,-39.586967,49-3022.00,49,"Installation, Maintenance, and Repair"
+765,16.421349,-40.846386,49-3023.01,49,"Installation, Maintenance, and Repair"
+766,12.686556,-42.407085,49-3023.02,49,"Installation, Maintenance, and Repair"
+767,11.900601,-41.84855,49-3031.00,49,"Installation, Maintenance, and Repair"
+768,14.648874,-42.330177,49-3041.00,49,"Installation, Maintenance, and Repair"
+769,16.99951,-41.430862,49-3042.00,49,"Installation, Maintenance, and Repair"
+770,10.412208,-42.15113,49-3043.00,49,"Installation, Maintenance, and Repair"
+771,5.1701436,-41.813343,49-3051.00,49,"Installation, Maintenance, and Repair"
+772,7.560103,-43.267982,49-3052.00,49,"Installation, Maintenance, and Repair"
+773,4.92304,-41.38321,49-3053.00,49,"Installation, Maintenance, and Repair"
+774,8.796237,-34.252056,49-3091.00,49,"Installation, Maintenance, and Repair"
+775,9.097569,-36.075016,49-3092.00,49,"Installation, Maintenance, and Repair"
+776,-18.838146,-40.7942,49-3093.00,49,"Installation, Maintenance, and Repair"
+777,10.222427,-37.69216,49-9011.00,49,"Installation, Maintenance, and Repair"
+778,7.709005,-37.62306,49-9012.00,49,"Installation, Maintenance, and Repair"
+779,18.64299,-39.192196,49-9021.01,49,"Installation, Maintenance, and Repair"
+780,17.93882,-40.19954,49-9021.02,49,"Installation, Maintenance, and Repair"
+781,10.6724205,-34.36558,49-9031.00,49,"Installation, Maintenance, and Repair"
+782,15.468685,-42.903637,49-9041.00,49,"Installation, Maintenance, and Repair"
+783,3.7633843,-41.237087,49-9043.00,49,"Installation, Maintenance, and Repair"
+784,18.543175,-41.511284,49-9044.00,49,"Installation, Maintenance, and Repair"
+785,-13.019718,-39.010235,49-9045.00,49,"Installation, Maintenance, and Repair"
+786,21.943317,-39.386967,49-9051.00,49,"Installation, Maintenance, and Repair"
+787,6.7591033,-37.327415,49-9052.00,49,"Installation, Maintenance, and Repair"
+788,-5.479852,-22.979761,49-9061.00,49,"Installation, Maintenance, and Repair"
+789,14.9811945,-28.354597,49-9062.00,49,"Installation, Maintenance, and Repair"
+790,8.39989,-44.246876,49-9063.00,49,"Installation, Maintenance, and Repair"
+791,-6.4592004,-22.469753,49-9064.00,49,"Installation, Maintenance, and Repair"
+792,8.86161,-40.065655,49-9071.00,49,"Installation, Maintenance, and Repair"
+793,14.810692,-39.128574,49-9081.00,49,"Installation, Maintenance, and Repair"
+794,3.5444806,-39.51864,49-9091.00,49,"Installation, Maintenance, and Repair"
+795,21.121986,-40.950817,49-9092.00,49,"Installation, Maintenance, and Repair"
+796,-29.31738,-29.5794,49-9093.00,49,"Installation, Maintenance, and Repair"
+797,7.7846823,-33.881245,49-9094.00,49,"Installation, Maintenance, and Repair"
+798,19.661911,-42.300163,49-9095.00,49,"Installation, Maintenance, and Repair"
+799,-5.0641994,-48.75622,49-9096.00,49,"Installation, Maintenance, and Repair"
+800,14.877133,-44.163525,49-9097.00,49,"Installation, Maintenance, and Repair"
+801,-13.6676235,-44.469822,49-9098.00,49,"Installation, Maintenance, and Repair"
+802,16.357342,-36.64801,49-9099.01,49,"Installation, Maintenance, and Repair"
+803,32.12222,0.750929,51-1011.00,51,Production
+804,10.399068,-39.54205,51-2011.00,51,Production
+805,-25.603443,-30.433226,51-2021.00,51,Production
+806,-7.0852866,-29.86676,51-2022.00,51,Production
+807,-6.653323,-29.334469,51-2023.00,51,Production
+808,2.643407,-41.10026,51-2031.00,51,Production
+809,-24.451347,-33.897194,51-2041.00,51,Production
+810,-1.8969344,-41.613987,51-2091.00,51,Production
+811,-10.890287,-26.458807,51-2092.00,51,Production
+812,-7.4899764,-23.269526,51-2093.00,51,Production
+813,-12.374371,-19.414175,51-3011.00,51,Production
+814,-14.537965,-20.740284,51-3021.00,51,Production
+815,-25.006496,-38.127518,51-3022.00,51,Production
+816,-33.074413,-31.324884,51-3023.00,51,Production
+817,-10.184745,-34.20414,51-3091.00,51,Production
+818,-14.442315,-33.247353,51-3092.00,51,Production
+819,-14.281484,-33.610966,51-3093.00,51,Production
+820,17.118313,-44.64848,51-4011.00,51,Production
+821,16.218847,-19.886877,51-4012.00,51,Production
+822,-6.2415924,-42.65567,51-4021.00,51,Production
+823,-8.79232,-36.617,51-4022.00,51,Production
+824,1.931146,-47.884014,51-4023.00,51,Production
+825,-8.9194975,-37.928505,51-4031.00,51,Production
+826,-7.8773613,-36.97228,51-4032.00,51,Production
+827,-4.476176,-40.3632,51-4033.00,51,Production
+828,-10.076609,-38.632618,51-4034.00,51,Production
+829,-6.3826795,-36.680355,51-4035.00,51,Production
+830,-3.844968,-37.27613,51-4041.00,51,Production
+831,-1.3080927,-47.373627,51-4051.00,51,Production
+832,-10.574139,-41.814934,51-4052.00,51,Production
+833,-4.387432,-36.44982,51-4061.00,51,Production
+834,-3.8918982,-34.069805,51-4062.00,51,Production
+835,-26.200699,-34.610157,51-4071.00,51,Production
+836,-7.8633432,-38.756252,51-4072.00,51,Production
+837,0.48960516,-41.35313,51-4081.00,51,Production
+838,-4.8389034,-33.9283,51-4111.00,51,Production
+839,-0.88281167,-38.430954,51-4121.06,51,Production
+840,-30.73912,-31.094501,51-4121.07,51,Production
+841,-10.818565,-37.478065,51-4122.00,51,Production
+842,-4.615488,-43.95001,51-4191.00,51,Production
+843,-3.6587873,-34.935863,51-4192.00,51,Production
+844,-9.600089,-35.23171,51-4193.00,51,Production
+845,-3.693205,-39.6127,51-4194.00,51,Production
+846,-4.4751396,-21.369118,51-5111.00,51,Production
+847,-6.452679,-27.049658,51-5112.00,51,Production
+848,5.9582806,-36.302864,51-5113.00,51,Production
+849,-29.456299,-27.540007,51-6011.00,51,Production
+850,-32.562496,-31.090847,51-6021.00,51,Production
+851,-28.955914,-30.935108,51-6031.00,51,Production
+852,-30.207157,-29.3795,51-6041.00,51,Production
+853,-27.987995,-31.783976,51-6042.00,51,Production
+854,-8.685271,-21.37848,51-6051.00,51,Production
+855,-10.10295,-19.903822,51-6052.00,51,Production
+856,-7.1867943,-35.25792,51-6061.00,51,Production
+857,-6.740974,-42.089443,51-6062.00,51,Production
+858,-27.829084,-32.253265,51-6063.00,51,Production
+859,-7.5180573,-41.174187,51-6064.00,51,Production
+860,-2.8499255,-44.555344,51-6091.00,51,Production
+861,10.157003,-12.385365,51-6092.00,51,Production
+862,1.5121448,-36.48377,51-6093.00,51,Production
+863,-0.2165974,-37.076736,51-7011.00,51,Production
+864,1.2871882,-36.195393,51-7021.00,51,Production
+865,-2.9136388,-32.639812,51-7031.00,51,Production
+866,-1.82816,-36.063,51-7032.00,51,Production
+867,-10.846851,-38.97383,51-7041.00,51,Production
+868,-6.5251656,-39.179108,51-7042.00,51,Production
+869,16.845722,-6.039224,51-8011.00,51,Production
+870,24.586296,-11.685161,51-8012.00,51,Production
+871,19.117523,-30.268198,51-8013.00,51,Production
+872,10.489772,-29.66235,51-8021.00,51,Production
+873,18.757278,-28.684832,51-8031.00,51,Production
+874,21.232126,-29.48213,51-8091.00,51,Production
+875,22.35069,-30.83496,51-8092.00,51,Production
+876,22.258366,-30.19622,51-8093.00,51,Production
+877,16.578928,-35.15412,51-8099.01,51,Production
+878,3.4740348,-46.51362,51-8099.03,51,Production
+879,16.648758,-35.820415,51-8099.04,51,Production
+880,19.643072,-29.690796,51-9011.00,51,Production
+881,2.0177789,-46.58865,51-9012.00,51,Production
+882,0.8578993,-47.75,51-9021.00,51,Production
+883,-10.519236,-41.282455,51-9022.00,51,Production
+884,0.3509808,-45.216446,51-9023.00,51,Production
+885,-28.428337,-28.056816,51-9031.00,51,Production
+886,-4.708363,-40.993843,51-9032.00,51,Production
+887,-7.2785015,-39.59062,51-9041.00,51,Production
+888,-13.630902,-34.744076,51-9051.00,51,Production
+889,-3.1747482,-26.993114,51-9061.00,51,Production
+890,-6.352527,-19.8887,51-9071.01,51,Production
+891,-6.457153,-20.775885,51-9071.06,51,Production
+892,-7.4848046,-21.745724,51-9071.07,51,Production
+893,-4.8111806,-21.55449,51-9081.00,51,Production
+894,12.793911,-12.153162,51-9082.00,51,Production
+895,-7.1646066,-27.00883,51-9083.00,51,Production
+896,-12.013877,-40.921734,51-9111.00,51,Production
+897,-9.77458,-42.70635,51-9121.00,51,Production
+898,-11.028846,-43.708767,51-9122.00,51,Production
+899,-30.186604,-27.874804,51-9123.00,51,Production
+900,-7.4106054,-30.919716,51-9141.00,51,Production
+901,3.5410495,-23.571054,51-9151.00,51,Production
+902,-5.2028933,-43.36674,51-9191.00,51,Production
+903,-26.328722,-37.116714,51-9192.00,51,Production
+904,1.6391562,-45.28999,51-9193.00,51,Production
+905,-8.531893,-28.942133,51-9194.00,51,Production
+906,-11.136271,-30.29315,51-9195.03,51,Production
+907,-1.6919557,-34.886536,51-9195.04,51,Production
+908,-10.918676,-29.682312,51-9195.05,51,Production
+909,-8.325009,-43.595406,51-9195.07,51,Production
+910,-9.704145,-36.34965,51-9196.00,51,Production
+911,-27.111082,-34.680527,51-9197.00,51,Production
+912,-25.84684,-35.151604,51-9198.00,51,Production
+913,-12.974157,-41.73991,51-9199.01,51,Production
+914,32.957752,-2.6764958,53-1011.00,53,Transportation and Material Moving
+915,-2.4404855,8.388129,53-1021.00,53,Transportation and Material Moving
+916,-5.778721,9.987115,53-1021.01,53,Transportation and Material Moving
+917,31.063675,0.9008485,53-1031.00,53,Transportation and Material Moving
+918,41.255188,-3.643233,53-2011.00,53,Transportation and Material Moving
+919,40.595856,-4.055658,53-2012.00,53,Transportation and Material Moving
+920,32.581352,-7.5047555,53-2021.00,53,Transportation and Material Moving
+921,27.11748,-7.972572,53-2022.00,53,Transportation and Material Moving
+922,-3.8088245,-3.3876956,53-2031.00,53,Transportation and Material Moving
+923,2.729471,-27.959795,53-3011.00,53,Transportation and Material Moving
+924,-17.386835,-28.703215,53-3021.00,53,Transportation and Material Moving
+925,-17.146704,-28.029005,53-3022.00,53,Transportation and Material Moving
+926,-19.205524,-23.265226,53-3031.00,53,Transportation and Material Moving
+927,-2.8286204,-52.193607,53-3032.00,53,Transportation and Material Moving
+928,-20.34177,-26.34401,53-3033.00,53,Transportation and Material Moving
+929,-18.00226,-29.021412,53-3041.00,53,Transportation and Material Moving
+930,1.4338012,-55.275013,53-4011.00,53,Transportation and Material Moving
+931,-0.55440307,-53.32929,53-4012.00,53,Transportation and Material Moving
+932,1.3781013,-52.796303,53-4013.00,53,Transportation and Material Moving
+933,-4.629559,-52.273907,53-4021.00,53,Transportation and Material Moving
+934,27.476957,-5.460845,53-4031.00,53,Transportation and Material Moving
+935,1.0594406,-54.42226,53-4041.00,53,Transportation and Material Moving
+936,2.3420205,-52.88125,53-5011.00,53,Transportation and Material Moving
+937,38.781837,-3.4798388,53-5021.01,53,Transportation and Material Moving
+938,28.611916,-3.836238,53-5021.02,53,Transportation and Material Moving
+939,40.208523,-4.2166433,53-5021.03,53,Transportation and Material Moving
+940,2.4876568,-53.882713,53-5022.00,53,Transportation and Material Moving
+941,19.745493,-35.53894,53-5031.00,53,Transportation and Material Moving
+942,-16.791101,-26.890802,53-6011.00,53,Transportation and Material Moving
+943,-18.947102,-25.162632,53-6021.00,53,Transportation and Material Moving
+944,-18.0442,-40.15927,53-6031.00,53,Transportation and Material Moving
+945,24.043055,-12.8797455,53-6041.00,53,Transportation and Material Moving
+946,25.873974,-13.0699835,53-6051.01,53,Transportation and Material Moving
+947,-8.493647,-33.733032,53-6051.07,53,Transportation and Material Moving
+948,24.512966,-9.407835,53-6051.08,53,Transportation and Material Moving
+949,-21.15199,-15.540241,53-6061.00,53,Transportation and Material Moving
+950,-2.5016615,-45.019554,53-7011.00,53,Transportation and Material Moving
+951,-2.092801,-52.025692,53-7021.00,53,Transportation and Material Moving
+952,-12.731864,-49.11253,53-7031.00,53,Transportation and Material Moving
+953,-3.3957758,-53.708977,53-7032.00,53,Transportation and Material Moving
+954,-27.041014,-43.473515,53-7033.00,53,Transportation and Material Moving
+955,-4.7663407,-54.774273,53-7041.00,53,Transportation and Material Moving
+956,-14.032648,-50.278282,53-7051.00,53,Transportation and Material Moving
+957,-33.176277,-33.749447,53-7061.00,53,Transportation and Material Moving
+958,-24.81787,-40.23913,53-7062.00,53,Transportation and Material Moving
+959,-26.075994,-37.012753,53-7063.00,53,Transportation and Material Moving
+960,-32.922512,-32.585316,53-7064.00,53,Transportation and Material Moving
+961,-0.58289534,-44.97916,53-7071.00,53,Transportation and Material Moving
+962,1.4933189,-46.155087,53-7072.00,53,Transportation and Material Moving
+963,-11.758204,-37.05258,53-7073.00,53,Transportation and Material Moving
+964,-27.501904,-40.597313,53-7081.00,53,Transportation and Material Moving
+965,-31.874273,-36.71716,53-7111.00,53,Transportation and Material Moving
+966,-0.051552754,-49.559605,53-7121.00,53,Transportation and Material Moving
