@@ -7,7 +7,7 @@ import numpy as np
 import plotly.express as px
 from whitenoise import WhiteNoise
 
-from functions import make_fig_updates, make_labels, return_fig
+from functions import make_fig_updates, make_labels, return_fig, sliders
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 

@@ -69,12 +69,21 @@ def make_labels(cats):
 
     return label_df
 
+def sliders(input):
+    if input < 0.25:
+        out = 0
+    elif input >= 0.25 and input < 0.75:
+        out = 0.5
+    else:
+        out = 1
+
+    return(out)
+
 label_df = make_labels(SOC_cats)
 
 def make_fig_updates(query, q1, q2, q3, q4, q5, q6):
 
-
-    weights_s = [str(i) for i in [q1, q2, q3, q4, q5, q6]]
+    weights_s = [str(i) for i in [sliders(q1), sliders(q2), sliders(q3), sliders(q4), sliders(q5), sliders(q6)]]
     filename = "TSNE/X_TSNE_" + str("_".join(weights_s)) + ".csv"
     X_TSNE = pd.read_csv(filename)
     X_TSNE = X_TSNE.merge(label_df.Label.astype(int), on = 'Label', how = 'left')
