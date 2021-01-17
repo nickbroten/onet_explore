@@ -223,7 +223,18 @@ slider_content = html.Div(
         0.5: 'Somewhat important',
          1: 'Very important'
         }
-    )
+    ),
+
+    html.Br(),
+
+    dcc.Markdown(
+            '''
+
+            **NOTE: job requirement weights only have three levels: low, medium, and high. Slider values between 0 and 0.25 will register as low, 0.25 and 0.75 as medium, and 0.75 and 1 as high.**
+
+            '''
+    ),
+
     ]
 )
 
