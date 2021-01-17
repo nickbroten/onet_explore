@@ -5,12 +5,15 @@ from dash.exceptions import PreventUpdate
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from whitenoise import WhiteNoise
 
 from functions import make_fig_updates, make_labels, return_fig
 
-from whitenoise import WhiteNoise
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
 
 occlist = pd.read_pickle('static/occs.pkl')
 styles = pd.read_pickle('static/style.pkl')
@@ -49,10 +52,6 @@ CONTENT_STYLE = {
     "margin-right": "2rem",
     "padding": "2rem 1rem",
 }
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
-server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
 
 slider_content = html.Div(
 
