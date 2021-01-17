@@ -8,6 +8,8 @@ import plotly.express as px
 
 from functions import make_fig_updates, make_labels, return_fig
 
+from whitenoise import WhiteNoise
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 occlist = pd.read_pickle('static/occs.pkl')
@@ -49,6 +51,8 @@ CONTENT_STYLE = {
 }
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
 
 slider_content = html.Div(
 
@@ -263,4 +267,4 @@ def update_output(n_clicks, query, a1, a2, a3, a4, a5, a6, state):
         raise PreventUpdate
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port = 3040)
+    app.run_server(debug=False)
